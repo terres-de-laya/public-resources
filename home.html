@@ -1,22 +1,157 @@
 <style type="text/css">
-    .tos {
-        width: auto;
-        color: black;
-        background : #ffcccb;
-        font-weight: bold;
+    body {
+        background-color: #023228;
+        color: white;
+        font-family: Arial, sans-serif;
     }
+    .header {
+        text-align: center;
+        padding: 20px;
+    }
+    .logo {
+        max-width: 200px;
+    }
+    .welcome-message {
+        margin: 20px;
+        padding: 20px;
+        background-color: #ededed;
+        border-radius: 8px;
+        color: #1b1f3b;
+    }
+    .rooms {
+        margin: 20px;
+        padding: 20px;
+        background-color: #003d33;
+        border-radius: 8px;
+    }
+    .room {
+        margin-bottom: 10px;
+    }
+    a {
+        color: #cf5b40;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
 </style>
 
-<h1>The example.org Matrix Server</h1>
-
-<div class="tos">
-    <p>Behave appropriately.</p>
+<div class="header">
+    <img
+        src="https://raw.githubusercontent.com/terres-de-laya/public-resources/refs/heads/main/terres-de-laya-logo.png"
+        alt="Terres de Laya Logo"
+        class="logo"
+    >
+    <h1>Bienvenue sur Terres de Laya ! 🌱✨</h1>
 </div>
 
-<h2>Start Chatting</h2>
-<ul>
-    <li><a href="#/dm">Send a Direct Message</a></li>
-    <li><a href="#/directory">Explore Public Rooms</a></li>
-    <li><a href="#/new">Create a Group Chat</a></li>
-</ul>
+<div class="welcome-message">
+    <p>
+        Nous sommes ravis de vous accueillir dans notre espace collaboratif ! Ici, vous pourrez échanger, participer à des projets collectifs et vous connecter avec la communauté de l’éco-quartier. 🎉
+    </p>
+    <p>Quelques conseils pour bien commencer :</p>
+    <ul>
+        <li>
+            Fil de discussion (thread) : Si vous répondez à un message spécifique, utilisez les threads. Cela permet de garder la discussion claire et organisée.
+        </li>
+        <li>
+            Notifications : Activez les notifications des rooms qui vous intéressent le plus pour ne rien manquer ! Vous pouvez les gérer dans les paramètres de chaque room.
+        </li>
+        <li>
+            Mentions : Utilisez “@” suivi du nom d’une personne pour attirer son attention dans une conversation.
+        </li>
+    </ul>
+</div>
 
+<div class="rooms">
+    <h2>Découvrez nos rooms :</h2>
+    <div class="room">
+        <a href="#general:chat.terresdelaya.fr">#general:chat.terresdelaya.fr 🌍️</a>
+        <p>
+            Espace pour les annonces générales, discussions diverses et échanges entre membres de la communauté.
+        </p>
+    </div>
+    <div class="room">
+        <a href="#support:chat.terresdelaya.fr">#support:chat.terresdelaya.fr 🛠️</a>
+        <p>
+            Besoin d’aide ou de réponses à vos questions ? C’est ici que ça se passe !
+        </p>
+    </div>
+    <div class="room">
+        <a href="#espace-commun:chat.terresdelaya.fr">#espace-commun:chat.terresdelaya.fr 🏡</a>
+        <p>
+            Échangez des idées, proposez des projets ou participez à l’aménagement de l’espace commun.
+        </p>
+    </div>
+    <div class="room">
+        <a href="#evenements:chat.terresdelaya.fr">#evenements:chat.terresdelaya.fr 📅</a>
+        <p>
+            Retrouvez les annonces et participez aux discussions sur les événements à venir.
+        </p>
+    </div>
+    <div class="room">
+        <a href="#boite-idees:chat.terresdelaya.fr">#boite-idees:chat.terresdelaya.fr 💡</a>
+        <p>
+            Proposez vos idées pour améliorer l’éco-quartier et participez à leur développement.
+        </p>
+    </div>
+    <div class="room">
+        <a href="#syndic-de-copropriete:chat.terresdelaya.fr">
+            #syndic-de-copropriete:chat.terresdelaya.fr 🏢
+        </a>
+        <p>
+            Participez aux discussions concernant la gestion de la copropriété et les décisions collectives.
+        </p>
+    </div>
+    <div class="room">
+        <a href="#chambre-hotes:chat.terresdelaya.fr">#chambre-hotes:chat.terresdelaya.fr 🛌</a>
+        <p>
+            Réservez ou posez des questions sur la chambre d’hôtes partagée.
+        </p>
+    </div>
+    <div class="room">
+        <a href="#mobilite-partagee:chat.terresdelaya.fr">
+            #mobilite-partagee:chat.terresdelaya.fr 🚲
+        </a>
+        <p>
+            Discutez de voitures, vélos ou trottinettes partagés et partagez vos conseils.
+        </p>
+    </div>
+    <div class="room">
+        <a href="#voitures-partagees:chat.terresdelaya.fr">
+            #voitures-partagees:chat.terresdelaya.fr 🚗
+        </a>
+        <p>
+            Un espace dédié aux voitures partagées : poser des questions, donner ou recevoir de l’aide, ou partager des infos.
+        </p>
+    </div>
+    <div class="room">
+        <a href="#potagers-partages:chat.terresdelaya.fr">
+            #potagers-partages:chat.terresdelaya.fr 🌿
+        </a>
+        <p>
+            Échangez autour des potagers collectifs : organisation, conseils et astuces.
+        </p>
+    </div>
+    <div class="room">
+        <a href="#parents:chat.terresdelaya.fr">
+            #parents:chat.terresdelaya.fr 👨‍👩‍👧‍👦
+        </a>
+        <p>
+            Un espace dédié aux parents pour organiser des activités pour les enfants et discuter des sujets liés à la parentalité.
+        </p>
+    </div>
+</div>
+
+<div class="welcome-message">
+    <p>Créez vos propres rooms :</p>
+    <p>
+        Vous avez une idée ou un besoin spécifique non couvert par ces rooms ? N’hésitez pas à créer une room dédiée ! Notre communauté évolue grâce à vos initiatives.
+    </p>
+    <p>
+        En cas de question ou pour toute aide, passez par
+        <a href="#support:chat.terresdelaya.fr">#support:chat.terresdelaya.fr</a>
+        ou mentionnez-moi directement pour des conseils pratiques. Bonne exploration et bienvenue parmi nous ! 🚀
+    </p>
+</div>
